@@ -1,71 +1,89 @@
-/*菜单*/
 .navbar-default {
-  background-color: #e73c69;
-  border-color: #c02b32;
+  background-color: #f9f7f7;
+  border-color: #fdf6f5;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  color: #0b0b0b;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffbbbc;
+  color: #090909;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  color: #0b0b0b;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+  color: #0b0b0b;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffbbbc;
+  color: #090909;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #f9f7f7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #0b0b0b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #090909;
+  background-color: #fdf6f5;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #fdf6f5;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #090909;
+  background-color: #fdf6f5;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffbbbc;
-  background-color: #c02b32;
+  color: #090909;
+  background-color: #fdf6f5;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #ffbbbc;
-  background-color: #c02b32;
+  color: #090909;
+  background-color: #fdf6f5;
 }
 .navbar-default .navbar-toggle {
-  border-color: #c02b32;
+  border-color: #fdf6f5;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #c02b32;
+  background-color: #fdf6f5;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+  background-color: #0b0b0b;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ecf0f1;
+  border-color: #0b0b0b;
 }
 .navbar-default .navbar-link {
-  color: #ecf0f1;
+  color: #0b0b0b;
 }
 .navbar-default .navbar-link:hover {
-  color: #ffbbbc;
+  color: #090909;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
+    color: #0b0b0b;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffbbbc;
+    color: #090909;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffbbbc;
-    background-color: #c02b32;
+    color: #090909;
+    background-color: #fdf6f5;
   }
 }
-/*菜单颜色*/
