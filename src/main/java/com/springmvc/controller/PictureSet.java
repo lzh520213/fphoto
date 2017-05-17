@@ -21,10 +21,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PictureSet {
 	 private static Logger logger =LoggerFactory.getLogger(PictureSet.class);
 		@RequestMapping(value="/PictureSet")  
-	    public String HelloWorld(Model model){  
+	    public String PictureSet(Model model){  
 			logger.info("PictureSet");
 	        //model.addAttribute("message","Hello World!!!");  
-	        return "PictureSet";  
+	        return "/WEB-INF/jsp/PictureSet";  
 	    }  
-	
 }

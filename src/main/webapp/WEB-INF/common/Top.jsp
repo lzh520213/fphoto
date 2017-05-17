@@ -12,7 +12,7 @@
 	　</div>
 	<!-- 基础导航条-->
 	  <ul class="nav navbar-nav">
-	    <li><a href="##">网站首页</a></li>
+	    <li><a href="index.do">网站首页</a></li>
 	    <li><a href="PictureSet.do">图片集</a></li>
 	    <li><a href="##">视频集</a></li>
 	    <li><a href="##">手记</a></li>
