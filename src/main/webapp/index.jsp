@@ -16,27 +16,7 @@
 </head>
 <body>
 <div class="container">
-			<!-- <ul class="nav nav-pills">
-				  当前状态
-				  <li class="active"><a href="##">首页</a></li>
-				  <li><a href="##">图片集</a></li>
-				  <li><a href="##">视频集</a></li>
-				  <li><a href="##">手记</a></li>
-			</ul> -->
-			<div class="navbar navbar-default">
-			    <!-- 导航条标题-->
-			  　<div class="navbar-header">
-			  　    <a href="##" class="navbar-brand">LOGO</a>
-			  　</div>
-			  <!-- 基础导航条-->
-			  <ul class="nav navbar-nav">
-			    <li><a href="##">网站首页</a></li>
-			    <li><a href="Hello.do">图片集</a></li>
-			    <li><a href="##">视频集</a></li>
-			    <li><a href="##">手记</a></li>
-			    <li><a href="##">关于我们</a></li>
-			  </ul>
-			</div>
+<jsp:include page="/WEB-INF/common/Top.jsp" />			
 <!-- 图片集 -->
 <div id="screen" class="wrap clear">
   <div class="bd">
